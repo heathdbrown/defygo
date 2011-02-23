@@ -1,4 +1,10 @@
 Defygo::Application.routes.draw do
+  get "messages/new"
+
+  resources :messages
+
+  resources :users
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @user.name %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @user.email %>
+</p>
+
+<p>
+  <b>Keyphrase:</b>
+  <%= @user.keyphrase %>
+</p>
+
+<p>
+  <b>Pubkey:</b>
+  <%= @user.pubkey %>
+</p>
+
+<p>
+  <b>Privkey:</b>
+  <%= @user.privkey %>
+</p>
+
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>
